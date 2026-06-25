@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "clsx": "^2.0.0",
     "lodash": "^4.17.23",
     "lucide-react": "^0.294.0",

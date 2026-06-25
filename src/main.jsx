@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Analytics } from '@vercel/analytics/react';
 import App from './App';
 import 'reactflow/dist/style.css';
 import './styles/index.css';
@@ -41,5 +42,6 @@ if (config.features.debugMode) {
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <App />
+        <Analytics />
     </React.StrictMode>
 );

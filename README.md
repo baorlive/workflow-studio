@@ -2,6 +2,8 @@
 
 Private source-available workflow builder for automation and Web3 orchestration.
 
+Live demo: [web3-workflow-builder.vercel.app](https://web3-workflow-builder.vercel.app)
+
 This repository is published for portfolio/reference purposes. It is not open source, and reuse is restricted by the license in [`LICENSE`](/Volumes/Bao's%20Data/2027%20prj-baorlive/web3-workflow-builder/LICENSE).
 
 ## What it is
