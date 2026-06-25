@@ -1,0 +1,41 @@
+:root,
+:root[data-theme='light'],
+[data-theme='light'] {
+  color-scheme: light;
+
+  --semantic-color-brand: var(--primitive-color-brand);
+  --semantic-color-background: var(--primitive-color-background);
+  --semantic-color-text: var(--primitive-color-text);
+  --semantic-color-border: var(--primitive-color-border);
+
+  --semantic-color-background-canvas: var(--semantic-color-background);
+  --semantic-color-background-elevated: var(--semantic-color-background);
+  --semantic-color-border-default: var(--semantic-color-border);
+  --semantic-color-text-primary: var(--semantic-color-text);
+  --semantic-color-text-muted: var(--semantic-color-text);
+  --semantic-color-text-subtle: var(--semantic-color-text);
+  --semantic-color-scrollbar-thumb: var(--primitive-effect-scrollbar-light);
+  --semantic-color-scrollbar-thumb-hover: var(--primitive-effect-scrollbar-light);
+
+  /* Compatibility aliases used by existing UI classes */
+  --color-primary-50: var(--primitive-color-brand-1);
+  --color-primary-100: var(--primitive-color-brand-1);
+  --color-primary-200: var(--primitive-color-brand-2);
+  --color-primary-300: var(--primitive-color-brand-2);
+  --color-primary-400: var(--primitive-color-brand-2);
+  --color-primary-500: var(--primitive-color-brand-3);
+  --color-primary-600: var(--primitive-color-brand-3);
+  --color-primary-700: var(--primitive-color-brand-4);
+  --color-primary-800: var(--primitive-color-brand-4);
+  --color-primary-900: var(--primitive-color-brand-4);
+  --color-surface: var(--semantic-color-background);
+  --color-surface-elevated: var(--semantic-color-background-elevated);
+  --color-border: var(--semantic-color-border);
+  --color-text: var(--semantic-color-text);
+  --color-text-muted: var(--semantic-color-text-muted);
+  --color-text-subtle: var(--semantic-color-text-subtle);
+  --color-success: var(--semantic-color-feedback-success);
+  --color-warning: var(--semantic-color-feedback-warning);
+  --color-error: var(--semantic-color-feedback-error);
+  --color-info: var(--semantic-color-feedback-info);
+}

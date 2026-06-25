@@ -1,0 +1,56 @@
+/* Scrollbar (Firefox) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--semantic-color-scrollbar-thumb) transparent;
+}
+
+/* Scrollbar (WebKit) */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--semantic-color-scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--semantic-color-scrollbar-thumb-hover);
+}
+
+/* Utility surfaces */
+.ds-surface {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
+
+.ds-surface-elevated {
+  background-color: var(--color-surface-elevated);
+  color: var(--color-text);
+}
+
+/* Existing project utility classes */
+.bg-grid-pattern {
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, var(--color-border) 1px, transparent 1px);
+}
+
+.node-gradient-primary {
+  background: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-surface-elevated) 100%);
+}
+
+.node-selected {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
+}
+
+.connection-line {
+  stroke: #cbd5e1;
+  stroke-width: 2px;
+  fill: none;
+}

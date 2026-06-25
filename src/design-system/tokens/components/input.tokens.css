@@ -1,0 +1,16 @@
+:root {
+  /* Component Tokens: Input */
+  --input-radius: var(--primitive-radius-md);
+  --input-padding-x: var(--primitive-size-input-padding-x);
+  --input-padding-y: var(--primitive-size-input-padding-y);
+  --input-font-size: var(--primitive-size-input-font-size);
+
+  --input-bg: var(--primitive-color-white);
+  --input-text: var(--primitive-color-gray-900);
+  --input-placeholder: var(--primitive-color-gray-400);
+  --input-border: var(--primitive-color-gray-300);
+  --input-border-focus: var(--primitive-color-brand);
+  --input-ring-focus: var(--primitive-color-brand);
+  --input-disabled-bg: var(--primitive-color-gray-50);
+  --input-disabled-text: var(--primitive-color-gray-500);
+}

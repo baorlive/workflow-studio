@@ -1,0 +1,56 @@
+:root[data-theme='dark'],
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --semantic-color-brand: #8e85ff;
+  --semantic-color-background: #111827;
+  --semantic-color-text: #e2e8f0;
+  --semantic-color-border: #334155;
+
+  --semantic-color-background-canvas: var(--semantic-color-background);
+  --semantic-color-background-elevated: var(--semantic-color-background);
+  --semantic-color-border-default: var(--semantic-color-border);
+  --semantic-color-text-primary: var(--semantic-color-text);
+  --semantic-color-text-muted: var(--semantic-color-text);
+  --semantic-color-text-subtle: var(--semantic-color-text);
+  --semantic-color-scrollbar-thumb: var(--primitive-effect-scrollbar-dark);
+  --semantic-color-scrollbar-thumb-hover: var(--primitive-effect-scrollbar-dark-hover);
+
+  --button-secondary-bg: var(--primitive-effect-surface-dark-secondary);
+  --button-secondary-bg-hover: var(--primitive-effect-surface-dark-secondary-hover);
+  --button-secondary-text: var(--semantic-color-text);
+  --button-secondary-border: var(--primitive-effect-border-dark-medium);
+
+  --button-ghost-bg-hover: var(--primitive-effect-surface-dark-ghost-hover);
+  --button-ghost-text: var(--semantic-color-text);
+
+  --input-bg: var(--semantic-color-background);
+  --input-text: var(--semantic-color-text);
+  --input-border: var(--primitive-effect-border-dark-medium);
+  --input-disabled-bg: var(--primitive-effect-surface-dark-disabled);
+
+  --card-bg: var(--semantic-color-background);
+  --card-border: var(--primitive-effect-border-dark-soft);
+
+  /* Compatibility aliases used by existing UI classes */
+  --color-primary-50: rgba(142, 133, 255, 0.12);
+  --color-primary-100: rgba(142, 133, 255, 0.18);
+  --color-primary-200: rgba(142, 133, 255, 0.28);
+  --color-primary-300: rgba(142, 133, 255, 0.45);
+  --color-primary-400: rgba(142, 133, 255, 0.65);
+  --color-primary-500: var(--semantic-color-brand);
+  --color-primary-600: var(--semantic-color-brand);
+  --color-primary-700: #a5a0ff;
+  --color-primary-800: #bfbbff;
+  --color-primary-900: #d9d7ff;
+  --color-surface: var(--semantic-color-background);
+  --color-surface-elevated: var(--semantic-color-background-elevated);
+  --color-border: var(--semantic-color-border);
+  --color-text: var(--semantic-color-text);
+  --color-text-muted: var(--semantic-color-text-muted);
+  --color-text-subtle: var(--semantic-color-text-subtle);
+  --color-success: var(--semantic-color-feedback-success);
+  --color-warning: var(--semantic-color-feedback-warning);
+  --color-error: var(--semantic-color-feedback-error);
+  --color-info: var(--semantic-color-feedback-info);
+}

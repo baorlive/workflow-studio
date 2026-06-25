@@ -1,0 +1,105 @@
+:root {
+  /* Primitive Core Brand Colors */
+  --primitive-color-brand: var(--primitive-color-brand-3);
+  --primitive-color-background: var(--primitive-color-gray-50);
+  --primitive-color-text: var(--primitive-color-gray-900);
+  --primitive-color-border: var(--primitive-color-gray-200);
+
+  /* Primitive Brand Scale */
+  --primitive-color-brand-1: #ede9fe;
+  --primitive-color-brand-2: #c4b5fd;
+  --primitive-color-brand-3: #5b4de8;
+  --primitive-color-brand-4: #4338ca;
+
+  /* Primitive Colors: Neutral (legacy support) */
+  --primitive-color-white: #ffffff;
+  --primitive-color-transparent: transparent;
+  --primitive-color-gray-50: #f9fafb;
+  --primitive-color-gray-100: #f3f4f6;
+  --primitive-color-gray-200: #e5e7eb;
+  --primitive-color-gray-300: #d1d5db;
+  --primitive-color-gray-400: #9ca3af;
+  --primitive-color-gray-500: #6b7280;
+  --primitive-color-gray-600: #4b5563;
+  --primitive-color-gray-700: #374151;
+  --primitive-color-gray-800: #1f2937;
+  --primitive-color-gray-900: #111827;
+  --primitive-color-gray-950: #030712;
+
+  /* Primitive Colors: Dark Theme Surfaces */
+  --primitive-color-slate-950: #0b1220;
+  --primitive-color-slate-900: #111827;
+  --primitive-color-slate-800: #1f2937;
+  --primitive-color-slate-700: #334155;
+  --primitive-color-slate-400: #94a3b8;
+  --primitive-color-slate-300: #cbd5e1;
+  --primitive-color-slate-200: #e2e8f0;
+
+  /* Primitive Colors: Semantic Feedback */
+  --primitive-color-green-600: #16a34a;
+  --primitive-color-green-700: #15803d;
+  --primitive-color-green-300: #86efac;
+  --primitive-color-amber-500: #f59e0b;
+  --primitive-color-red-600: #dc2626;
+  --primitive-color-red-700: #b91c1c;
+  --primitive-color-red-300: #fca5a5;
+  --primitive-color-blue-600: #2563eb;
+
+  /* Primitive Effects (alpha color values) */
+  --primitive-effect-scrollbar-light: rgba(71, 85, 105, 0.2);
+  --primitive-effect-scrollbar-dark: rgba(148, 163, 184, 0.35);
+  --primitive-effect-scrollbar-dark-hover: rgba(148, 163, 184, 0.5);
+  --primitive-effect-surface-dark-secondary: rgba(15, 23, 42, 0.4);
+  --primitive-effect-surface-dark-secondary-hover: rgba(30, 41, 59, 0.7);
+  --primitive-effect-surface-dark-ghost-hover: rgba(148, 163, 184, 0.16);
+  --primitive-effect-border-dark-medium: rgba(148, 163, 184, 0.45);
+  --primitive-effect-border-dark-soft: rgba(148, 163, 184, 0.25);
+  --primitive-effect-surface-dark-disabled: rgba(15, 23, 42, 0.5);
+
+  /* Primitive Spacing (4px baseline) */
+  --primitive-space-1: 0.25rem;
+  --primitive-space-2: 0.5rem;
+  --primitive-space-3: 0.75rem;
+  --primitive-space-4: 1rem;
+  --primitive-space-5: 1.25rem;
+  --primitive-space-6: 1.5rem;
+
+  /* Primitive Radius */
+  --primitive-radius-sm: 0.375rem;
+  --primitive-radius-md: 0.5rem;
+  --primitive-radius-lg: 0.75rem;
+  --primitive-radius-xl: 1rem;
+
+  /* Primitive Typography */
+  --primitive-font-sans: 'Plus Jakarta Sans', 'system-ui', sans-serif;
+  --primitive-font-mono: 'JetBrains Mono', monospace;
+  --primitive-font-size-xs: 0.75rem;
+  --primitive-font-size-sm: 0.875rem;
+  --primitive-font-size-md: 1rem;
+  --primitive-font-size-lg: 1.125rem;
+  --primitive-font-size-xl: 1.25rem;
+
+  /* Primitive Component Sizings */
+  --primitive-size-button-padding-x-sm: 0.75rem;
+  --primitive-size-button-padding-y-sm: 0.375rem;
+  --primitive-size-button-padding-x-md: 1rem;
+  --primitive-size-button-padding-y-md: 0.5rem;
+  --primitive-size-button-padding-x-lg: 1.5rem;
+  --primitive-size-button-padding-y-lg: 0.75rem;
+  --primitive-size-button-font-size-sm: var(--primitive-font-size-sm);
+  --primitive-size-button-font-size-md: var(--primitive-font-size-sm);
+  --primitive-size-button-font-size-lg: var(--primitive-font-size-md);
+  --primitive-size-input-padding-x: 0.75rem;
+  --primitive-size-input-padding-y: 0.5rem;
+  --primitive-size-input-font-size: var(--primitive-font-size-sm);
+
+  /* Primitive Shadow */
+  --primitive-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+  --primitive-shadow-md: 0 6px 12px rgba(15, 23, 42, 0.12);
+
+  /* Primitive Motion */
+  --primitive-duration-fast: 150ms;
+  --primitive-duration-normal: 200ms;
+  --primitive-duration-slow: 300ms;
+  --primitive-ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+}

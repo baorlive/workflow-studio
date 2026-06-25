@@ -1,0 +1,27 @@
+html,
+body,
+#root {
+  font-family: var(--primitive-font-sans);
+  color: var(--color-text);
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--primitive-font-mono);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text);
+  letter-spacing: -0.01em;
+}
+
+::placeholder {
+  color: var(--color-text-subtle);
+}

@@ -1,0 +1,47 @@
+:root {
+  /* Component Tokens: Button */
+  --button-radius: var(--primitive-radius-md);
+  --button-font-weight: 500;
+  --button-transition-duration: var(--primitive-duration-normal);
+
+  --button-padding-x-sm: var(--primitive-size-button-padding-x-sm);
+  --button-padding-y-sm: var(--primitive-size-button-padding-y-sm);
+  --button-font-size-sm: var(--primitive-size-button-font-size-sm);
+
+  --button-padding-x-md: var(--primitive-size-button-padding-x-md);
+  --button-padding-y-md: var(--primitive-size-button-padding-y-md);
+  --button-font-size-md: var(--primitive-size-button-font-size-md);
+
+  --button-padding-x-lg: var(--primitive-size-button-padding-x-lg);
+  --button-padding-y-lg: var(--primitive-size-button-padding-y-lg);
+  --button-font-size-lg: var(--primitive-size-button-font-size-lg);
+
+  --button-primary-bg: var(--primitive-color-brand);
+  --button-primary-bg-hover: var(--primitive-color-brand);
+  --button-primary-text: var(--primitive-color-background);
+  --button-primary-ring: var(--primitive-color-brand);
+  --button-primary-shadow: var(--primitive-shadow-sm);
+
+  --button-secondary-bg: var(--primitive-color-white);
+  --button-secondary-bg-hover: var(--primitive-color-gray-50);
+  --button-secondary-text: var(--primitive-color-gray-900);
+  --button-secondary-border: var(--primitive-color-gray-300);
+  --button-secondary-ring: var(--primitive-color-brand);
+
+  --button-ghost-bg: var(--primitive-color-transparent);
+  --button-ghost-bg-hover: var(--primitive-color-gray-100);
+  --button-ghost-text: var(--primitive-color-gray-900);
+  --button-ghost-ring: var(--primitive-color-gray-300);
+
+  --button-danger-bg: var(--primitive-color-red-600);
+  --button-danger-bg-hover: var(--primitive-color-red-700);
+  --button-danger-text: var(--primitive-color-white);
+  --button-danger-ring: var(--primitive-color-red-300);
+
+  --button-success-bg: var(--primitive-color-green-600);
+  --button-success-bg-hover: var(--primitive-color-green-700);
+  --button-success-text: var(--primitive-color-white);
+  --button-success-ring: var(--primitive-color-green-300);
+
+  --button-disabled-opacity: 0.5;
+}

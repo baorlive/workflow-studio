@@ -1,0 +1,12 @@
+:root {
+  /* Component Tokens: Card */
+  --card-radius: var(--primitive-radius-xl);
+  --card-padding: var(--primitive-space-4);
+  --card-bg: var(--primitive-color-gray-50);
+  --card-border: var(--primitive-color-gray-200);
+  --card-border-hover: var(--primitive-color-brand);
+  --card-shadow: var(--primitive-shadow-sm);
+  --card-shadow-hover: var(--primitive-shadow-md);
+  --card-title: var(--primitive-color-gray-900);
+  --card-subtitle: var(--primitive-color-gray-500);
+}

@@ -1,0 +1,53 @@
+@keyframes slideInRightDrawer {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRightDrawer var(--primitive-duration-slow) var(--primitive-ease-standard) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn var(--primitive-duration-fast) ease-out forwards;
+}
+
+.animate-zoom-in {
+  animation: zoomIn var(--primitive-duration-normal) var(--primitive-ease-standard) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-slide-in-right,
+  .animate-fade-in,
+  .animate-zoom-in {
+    animation-duration: 1ms;
+  }
+}

@@ -1,0 +1,809 @@
+[
+  {
+    "type": "folder",
+    "title": "Blockchain Providers",
+    "items": [
+      {
+        "type": "alchemy",
+        "label": "Alchemy",
+        "description": "Perform Alchemy on-chain operations"
+      },
+      {
+        "type": "alchemy_trigger",
+        "label": "Alchemy Trigger",
+        "description": "Start workflow whenever subscribed event happened"
+      },
+      {
+        "type": "alchemy_webhook",
+        "label": "Alchemy Webhook",
+        "description": "Start workflow whenever Alchemy webhook event happened"
+      },
+      {
+        "type": "arbiscan",
+        "label": "Arbiscan",
+        "description": "Perform Arbiscan operations"
+      },
+      {
+        "type": "etherscan",
+        "label": "Etherscan",
+        "description": "Perform Etherscan operations"
+      },
+      {
+        "type": "footprint_analytics",
+        "label": "Footprint Analytics",
+        "description": "Execute Footprint Analytics APIs and SQL query"
+      },
+      {
+        "type": "helio",
+        "label": "Helio",
+        "description": "Execute Helio API integration"
+      },
+      {
+        "type": "helio_webhook",
+        "label": "Helio Webhook",
+        "description": "Start workflow whenever Helio webhook event happened"
+      },
+      {
+        "type": "helius",
+        "label": "Helius",
+        "description": "Perform Helius on-chain operations on Solana"
+      },
+      {
+        "type": "infura",
+        "label": "Infura",
+        "description": "Perform Infura onchain operations"
+      },
+      {
+        "type": "infura_trigger",
+        "label": "Infura Trigger",
+        "description": "Start workflow whenever subscribed event happened"
+      },
+      {
+        "type": "moralis",
+        "label": "Moralis",
+        "description": "Execute Moralis APIs"
+      },
+      {
+        "type": "optimism_scan",
+        "label": "Optimism Scan",
+        "description": "Optimism Public API"
+      },
+      {
+        "type": "polygonscan",
+        "label": "PolygonScan",
+        "description": "PolygonScan Public API"
+      },
+      {
+        "type": "quicknode",
+        "label": "QuickNode",
+        "description": "Perform QuickNode onchain operations"
+      },
+      {
+        "type": "quicknode_trigger",
+        "label": "QuickNode Trigger",
+        "description": "Start workflow whenever subscribed event happened"
+      },
+      {
+        "type": "snowtrace",
+        "label": "SnowTrace",
+        "description": "Perform SnowTrace operations"
+      },
+      {
+        "type": "solscan",
+        "label": "Solscan",
+        "description": "Solscan Public API"
+      },
+      {
+        "type": "zan_know_your_transaction",
+        "label": "ZAN Know Your Transaction",
+        "description": "ZAN Know Your Transaction."
+      },
+      {
+        "type": "zan_smart_contract_review",
+        "label": "ZAN Smart Contract Review",
+        "description": "The Smart Contract Review Node provides contract security support for developers to develop Web3 applications on blockchains, from design and development in the early stage, to release and launch in the last stage."
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Other",
+    "items": [
+      {
+        "type": "bep20_function",
+        "label": "BEP20 Function",
+        "description": "Execute BEP20 function such as deposit, withdraw, get balance, etc"
+      },
+      {
+        "type": "bscscan",
+        "label": "BscScan",
+        "description": "Perform Bscscan operations"
+      },
+      {
+        "type": "call_lambda",
+        "label": "Call Lambda",
+        "description": "Invoke a lambda function"
+      },
+      {
+        "type": "chainlink",
+        "label": "ChainLink",
+        "description": "Execute ChainLink operations such as Data Feeds, Randomness, Oracles."
+      },
+      {
+        "type": "create_nft",
+        "label": "Create NFT",
+        "description": "Create new NFT (ERC1155)"
+      },
+      {
+        "type": "create_nft_do",
+        "label": "Create NFT DO",
+        "description": "Create new NFT (ERC1155)"
+      },
+      {
+        "type": "create_token",
+        "label": "Create Token",
+        "description": "Create new cryptocurrency token (ERC20)"
+      },
+      {
+        "type": "elliptic",
+        "label": "Elliptic",
+        "description": "Identify and mitigate risks in the cryptocurrency market"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "description": "GitHub API"
+      },
+      {
+        "type": "hubspot",
+        "label": "Hubspot",
+        "description": "Execute Hubspot API integration"
+      },
+      {
+        "type": "image_upload",
+        "label": "Image Upload",
+        "description": "Start workflow when form submit image is submitted"
+      },
+      {
+        "type": "imageeditor",
+        "label": "ImageEditor",
+        "description": "Edit image with different manipulation methods"
+      },
+      {
+        "type": "jwt",
+        "label": "JWT",
+        "description": "sign, verify or decode token"
+      },
+      {
+        "type": "lambda",
+        "label": "Lambda",
+        "description": "Deploy a lambda function"
+      },
+      {
+        "type": "mailchimp",
+        "label": "Mailchimp",
+        "description": "Execute Mailchimp API integration"
+      },
+      {
+        "type": "nodejs",
+        "label": "NodeJS",
+        "description": "Execute code within NodeVM sandbox"
+      },
+      {
+        "type": "nodejs2",
+        "label": "NodeJS2",
+        "description": "Execute code within NodeVM sandbox. Will return origin data"
+      },
+      {
+        "type": "notion",
+        "label": "Notion",
+        "description": "Work with Notion page, database or block"
+      },
+      {
+        "type": "opensea",
+        "label": "OpenSea",
+        "description": "Query OpenSea information"
+      },
+      {
+        "type": "postcompute",
+        "label": "PostCompute",
+        "description": "PostCompute Node"
+      },
+      {
+        "type": "precompute",
+        "label": "PreCompute",
+        "description": "PreCompute Node"
+      },
+      {
+        "type": "request_finance",
+        "label": "Request Finance",
+        "description": "Issue invoices and accept payments in cryptocurrency using RequestFinance API"
+      },
+      {
+        "type": "scbuild",
+        "label": "ScBuild",
+        "description": "Call to OpenAPI to get sc code"
+      },
+      {
+        "type": "send_email",
+        "label": "Send Email",
+        "description": "Send email to single or multiple receipients"
+      },
+      {
+        "type": "thirdweb",
+        "label": "ThirdWeb",
+        "description": "Execute ThirdWeb contract interactions using Ethers V6"
+      },
+      {
+        "type": "typescript",
+        "label": "TypeScript",
+        "description": "Execute code within NodeVM sandbox"
+      },
+      {
+        "type": "typeform",
+        "label": "Typeform",
+        "description": "Perform Typeform operations"
+      },
+      {
+        "type": "xero",
+        "label": "Xero",
+        "description": "Perform Xero operations"
+      },
+      {
+        "type": "bitscrunch_nft_analytics",
+        "label": "bitsCrunch NFT Analytics",
+        "description": "Perform BitCrunch NFT Analytics operations"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Blockchain Core",
+    "items": [
+      {
+        "type": "bep20_transfer",
+        "label": "BEP20 Transfer",
+        "description": "Send/Transfer BEP20 to an address"
+      },
+      {
+        "type": "bep20_transfer_trigger",
+        "label": "BEP20 Transfer Trigger",
+        "description": "Triggers whenever a BEP20 transfer event happened"
+      },
+      {
+        "type": "bnb_balance_trigger",
+        "label": "BNB Balance Trigger",
+        "description": "Triggers whenever BNB balance in wallet changes"
+      },
+      {
+        "type": "bnb_beacon_balance_trigger",
+        "label": "BNB Beacon Balance Trigger",
+        "description": "Triggers whenever BNB Beacon balance in wallet changes"
+      },
+      {
+        "type": "bnb_beacon_transfer",
+        "label": "BNB Beacon Transfer",
+        "description": "Send/Transfer BEP2 to an address"
+      },
+      {
+        "type": "bnb_transfer",
+        "label": "BNB Transfer",
+        "description": "Send/Transfer BNB to an address"
+      },
+      {
+        "type": "beacon_chain_signature_verification",
+        "label": "Beacon Chain Signature Verification",
+        "description": "Signature verification for beacon chain"
+      },
+      {
+        "type": "beacon_transfer_trigger",
+        "label": "Beacon Transfer Trigger",
+        "description": "Start workflow whenever an Beacon transfer event happened"
+      },
+      {
+        "type": "contract_event_trigger",
+        "label": "Contract Event Trigger",
+        "description": "Start workflow whenever the specified contract event happened"
+      },
+      {
+        "type": "contract_function_trigger",
+        "label": "Contract Function Trigger",
+        "description": "Triggers whenever the specified view function return value changes"
+      },
+      {
+        "type": "erc20_balance_trigger",
+        "label": "ERC20 Balance Trigger",
+        "description": "Start workflow whenever ERC20 balance in wallet changes"
+      },
+      {
+        "type": "erc20_function",
+        "label": "ERC20 Function",
+        "description": "Execute ERC20 function such as deposit, withdraw, get balance, etc"
+      },
+      {
+        "type": "erc20_transfer",
+        "label": "ERC20 Transfer",
+        "description": "Send/Transfer ERC20 to an address"
+      },
+      {
+        "type": "erc20_transfer_trigger",
+        "label": "ERC20 Transfer Trigger",
+        "description": "Start workflow whenever an ERC20 transfer event happened"
+      },
+      {
+        "type": "eth_balance_trigger",
+        "label": "ETH Balance Trigger",
+        "description": "Start workflow whenever ETH balance in wallet changes"
+      },
+      {
+        "type": "eth_transfer",
+        "label": "ETH Transfer",
+        "description": "Send/Transfer ETH to an address"
+      },
+      {
+        "type": "execute_contract_function",
+        "label": "Execute Contract Function",
+        "description": "Execute smart contract function."
+      },
+      {
+        "type": "flow_balance_trigger",
+        "label": "Flow Balance Trigger",
+        "description": "Start workflow whenever FLOW balance in wallet changes"
+      },
+      {
+        "type": "generate_wallet",
+        "label": "Generate wallet",
+        "description": "Generate new wallet for user"
+      },
+      {
+        "type": "import_smart_contract",
+        "label": "Import Smart Contract",
+        "description": "Import smart contract."
+      },
+      {
+        "type": "matic_balance_trigger",
+        "label": "MATIC Balance Trigger",
+        "description": "Start workflow whenever MATIC balance in wallet changes"
+      },
+      {
+        "type": "matic_transfer",
+        "label": "MATIC Transfer",
+        "description": "Send/Transfer MATIC to an address"
+      },
+      {
+        "type": "mint_nft_do",
+        "label": "Mint NFT DO",
+        "description": "Execute mint function of NFT contract."
+      },
+      {
+        "type": "multi_call_contract_function",
+        "label": "Multi Call Contract Function",
+        "description": "Execute multiple read function."
+      },
+      {
+        "type": "nft_mint_trigger",
+        "label": "NFT Mint Trigger",
+        "description": "Start workflow whenever a NFT is minted"
+      },
+      {
+        "type": "nft_transfer_trigger",
+        "label": "NFT Transfer Trigger",
+        "description": "Start workflow whenever a NFT transfer event happened"
+      },
+      {
+        "type": "scdesign",
+        "label": "ScDesign",
+        "description": "Call to OpenAPI to get spec"
+      },
+      {
+        "type": "signature_verification",
+        "label": "Signature Verification",
+        "description": "Signature verification"
+      },
+      {
+        "type": "solidity",
+        "label": "Solidity",
+        "description": "Compile and Deploy Solidity Code"
+      },
+      {
+        "type": "soliditydo",
+        "label": "SolidityDO",
+        "description": "Compile and Deploy Solidity Code"
+      },
+      {
+        "type": "ton_balance_trigger",
+        "label": "TON Balance Trigger",
+        "description": "Start workflow whenever TON balance in wallet changes"
+      },
+      {
+        "type": "ton_transfer",
+        "label": "TON Transfer",
+        "description": "Send/Transfer TON to an address"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Crypto Exchanges",
+    "items": [
+      {
+        "type": "binance_private",
+        "label": "Binance Private",
+        "description": "Binance Private APIs that require API and Secret keys"
+      },
+      {
+        "type": "binance_public",
+        "label": "Binance Public",
+        "description": "Binance Public API"
+      },
+      {
+        "type": "kucoin_private",
+        "label": "Kucoin Private",
+        "description": "Kucoin Private APIs that require API and Secret keys"
+      },
+      {
+        "type": "pancakeswap",
+        "label": "PancakeSwap",
+        "description": "Execute PancakeSwap operations"
+      },
+      {
+        "type": "uniswap",
+        "label": "Uniswap",
+        "description": "Execute Uniswap operations"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Logic & Flow",
+    "items": [
+      {
+        "type": "blockchain_event_trigger",
+        "label": "Blockchain Event Trigger",
+        "description": "Start workflow whenever a specified event happened on chain"
+      },
+      {
+        "type": "email_trigger",
+        "label": "Email Trigger",
+        "description": "Start workflow whenever a new email is received"
+      },
+      {
+        "type": "if_else",
+        "label": "If Else",
+        "description": "Split flows according to conditions set"
+      },
+      {
+        "type": "loop_end",
+        "label": "Loop End",
+        "description": "Control flow statement for specifying iteration"
+      },
+      {
+        "type": "loop_start",
+        "label": "Loop Start",
+        "description": "Control flow statement for specifying iteration"
+      },
+      {
+        "type": "opensea_event_trigger",
+        "label": "OpenSea Event Trigger",
+        "description": "Start workflow whenever OpenSea event occurs"
+      },
+      {
+        "type": "request_finance_trigger",
+        "label": "Request Finance Trigger",
+        "description": "Start workflow whenever receive new invoice or invoice status has changed"
+      },
+      {
+        "type": "scheduler",
+        "label": "Scheduler",
+        "description": "Start workflow at scheduled times"
+      },
+      {
+        "type": "switch",
+        "label": "Switch",
+        "description": "Route execution flow based on multiple conditions (like if-else-if-else)"
+      },
+      {
+        "type": "thirdweb_event_trigger",
+        "label": "ThirdWeb Event Trigger",
+        "description": "Start workflow whenever a ThirdWeb event happened"
+      },
+      {
+        "type": "wait",
+        "label": "Wait",
+        "description": "Wait before continuing with the execution"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Network & API",
+    "items": [
+      {
+        "type": "chainlink_function_webhook",
+        "label": "Chainlink Function Webhook",
+        "description": "Start workflow whenever chainlink function webhook is called"
+      },
+      {
+        "type": "github_webhook",
+        "label": "GitHub Webhook",
+        "description": "Start workflow whenever GitHub webhook event happened"
+      },
+      {
+        "type": "graphql",
+        "label": "GraphQL",
+        "description": "Execute GraphQL request"
+      },
+      {
+        "type": "http",
+        "label": "HTTP",
+        "description": "Execute HTTP request"
+      },
+      {
+        "type": "nowpayments_api",
+        "label": "NOWPayments API",
+        "description": "NOWPayments is a non-custodial cryptocurrency payment processing platform. Accept payments in a wide range of cryptos and get them instantly converted into a coin of your choice and sent to your wallet. Keeping it simple – no excess."
+      },
+      {
+        "type": "rabbitmq_publish",
+        "label": "RabbitMQ Publish",
+        "description": "Publish message to RabbitMQ queue"
+      },
+      {
+        "type": "rabbitmq_subscribe",
+        "label": "RabbitMQ Subscribe",
+        "description": "Subscribe message from RabbitMQ queue"
+      },
+      {
+        "type": "stripe_api",
+        "label": "Stripe API",
+        "description": "Integrate with Stripe API"
+      },
+      {
+        "type": "stripe_webhook",
+        "label": "Stripe Webhook",
+        "description": "Start workflow when receive Stripe event"
+      },
+      {
+        "type": "typeform_webhook",
+        "label": "Typeform Webhook",
+        "description": "Start workflow whenever Typeform webhook event happened"
+      },
+      {
+        "type": "webhook",
+        "label": "Webhook",
+        "description": "Start workflow when webhook is called with optional file upload support"
+      },
+      {
+        "type": "webhook_secure",
+        "label": "Webhook Secure",
+        "description": "Start workflow when webhook is called"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Social & Messaging",
+    "items": [
+      {
+        "type": "discord",
+        "label": "Discord",
+        "description": "Post message in Discord channel"
+      },
+      {
+        "type": "facebook_page",
+        "label": "Facebook Page",
+        "description": "Execute Facebook Page operations"
+      },
+      {
+        "type": "facebook_page_trigger",
+        "label": "Facebook Page Trigger",
+        "description": "Start workflow when Facebook Page event occurs"
+      },
+      {
+        "type": "instagram",
+        "label": "Instagram",
+        "description": "Execute Instagram operations"
+      },
+      {
+        "type": "instagram_trigger",
+        "label": "Instagram Trigger",
+        "description": "Start workflow when Instagram event occurs"
+      },
+      {
+        "type": "slack",
+        "label": "Slack",
+        "description": "Post message in Slack channel"
+      },
+      {
+        "type": "teams",
+        "label": "Teams",
+        "description": "Post message in Teams channel"
+      },
+      {
+        "type": "telegram",
+        "label": "Telegram",
+        "description": "Perform Telegram operations"
+      },
+      {
+        "type": "telegram_bot",
+        "label": "Telegram Bot",
+        "description": "Perform Telegram operations"
+      },
+      {
+        "type": "telegram_bot_trigger",
+        "label": "Telegram Bot Trigger",
+        "description": "Perform Telegram operations"
+      },
+      {
+        "type": "twitter",
+        "label": "Twitter",
+        "description": "Search Twitter User's tweets by keyword"
+      },
+      {
+        "type": "twitter_bot",
+        "label": "Twitter Bot",
+        "description": "Can take actions such as tweeting, retweeting, liking, following, unfollowing and direct messaging other users on the platform."
+      },
+      {
+        "type": "viber_bot",
+        "label": "Viber Bot",
+        "description": "Perform Viber bot operations"
+      },
+      {
+        "type": "viber_trigger",
+        "label": "Viber Trigger",
+        "description": "Start workflow when receive Viber event"
+      },
+      {
+        "type": "wechat_bot",
+        "label": "WeChat Bot",
+        "description": "Perform WeChat Official Account operations"
+      },
+      {
+        "type": "wechat_trigger",
+        "label": "WeChat Trigger",
+        "description": "Start workflow when receive WeChat event"
+      },
+      {
+        "type": "whatsapp_bot",
+        "label": "WhatsApp Bot",
+        "description": "Perform WhatsApp operations"
+      },
+      {
+        "type": "whatsapp_trigger",
+        "label": "WhatsApp Trigger",
+        "description": "Start workflow when receive WhatsApp event"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Data & Storage",
+    "items": [
+      {
+        "type": "excel_upload",
+        "label": "Excel Upload",
+        "description": "Excel upload trigger"
+      },
+      {
+        "type": "extract_from_file",
+        "label": "Extract From File",
+        "description": "Extract data from a file and convert it to structured data"
+      },
+      {
+        "type": "json_file_upload",
+        "label": "Json File Upload",
+        "description": "Start workflow when form submit json file is submitted"
+      },
+      {
+        "type": "pdf_upload",
+        "label": "PDF Upload",
+        "description": "Start workflow when form submit pdf file is submitted"
+      },
+      {
+        "type": "parse_excel_file",
+        "label": "Parse Excel file",
+        "description": "Parse excel file"
+      },
+      {
+        "type": "pinata",
+        "label": "Pinata",
+        "description": "Pin your content to IPFS with Pinata"
+      },
+      {
+        "type": "s3_upload_file",
+        "label": "S3 Upload File",
+        "description": "Upload file to S3"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Google Ecosystem",
+    "items": [
+      {
+        "type": "google_calendar",
+        "label": "Google Calendar",
+        "description": "Execute Google Calendar operations"
+      },
+      {
+        "type": "google_calendar_trigger",
+        "label": "Google Calendar Trigger",
+        "description": "Start workflow when Google Calendar event occurs"
+      },
+      {
+        "type": "google_drive",
+        "label": "Google Drive",
+        "description": "Execute Google Drive operations"
+      },
+      {
+        "type": "google_drive_trigger",
+        "label": "Google Drive Trigger",
+        "description": "Start workflow when Google Drive file/folder changes"
+      },
+      {
+        "type": "googledocs",
+        "label": "GoogleDocs",
+        "description": "Execute GoogleDocs operations"
+      },
+      {
+        "type": "googlesheet",
+        "label": "GoogleSheet",
+        "description": "Execute GoogleSheet operations"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Database",
+    "items": [
+      {
+        "type": "mysql",
+        "label": "MySQL",
+        "description": "Do some query with MySql"
+      },
+      {
+        "type": "postgres",
+        "label": "Postgres",
+        "description": "Do some query with Postgres"
+      },
+      {
+        "type": "redis_cache",
+        "label": "Redis Cache",
+        "description": "Data management with Redis"
+      },
+      {
+        "type": "tidb",
+        "label": "TiDB",
+        "description": "TiDB"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Browser Automation",
+    "items": [
+      {
+        "type": "playwright",
+        "label": "Playwright",
+        "description": "Automate browser actions using Playwright"
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Testing",
+    "items": [
+      {
+        "type": "test_dynamic_node",
+        "label": "Test Dynamic Node",
+        "description": "Node for testing dynamic parameter loading"
+      },
+      {
+        "type": "test_inputs",
+        "label": "Test Inputs",
+        "description": "Test all input types"
+      }
+    ]
+  }
+]
